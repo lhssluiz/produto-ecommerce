@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping(path = "/produto")
-public class AlunoController {
+public class ProdutoController {
 
     private final ProdutoRepository produtoRepository;
 
-    public AlunoController(ProdutoRepository produtoRepository) {
+    public ProdutoController(ProdutoRepository produtoRepository) {
         this.produtoRepository = produtoRepository;
     }
 
